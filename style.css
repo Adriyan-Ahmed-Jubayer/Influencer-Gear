@@ -11,9 +11,12 @@
     --card-text-size: 0.875rem;
     --card-text-color: #787885;
     --primary-button-background-color:  #E02C6D;
+    --secondary-text-color: white;
 }
 
 /* Header sections Styles Start From Here */
+
+/* Navigation Section Styles */
 
 .navigation-ber {
     display: flex;
@@ -39,6 +42,47 @@
     color: var(--card-prize-color);
     font-weight: 600;
 }
+
+/* Banner Section Styles */
+
+.banner-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 80px 165px 0px 120px
+}
+
+.banner-title {
+    color: var(--card-prize-color);
+    font-size: 3.25rem;
+    font-weight: 700;
+}
+
+.banner-description {
+    color: var(--card-prize-color);
+    font-weight: 600;
+}
+
+.banner-btn {
+    background-color: var(--primary-button-background-color);
+    color: var(--secondary-text-color);
+    padding: 10px 24px;
+    gap: 8px;
+    border-radius: 41px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-image {
+    background-image: url("images/Circle\ design.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px 40px 31px 2px;
+}
+
+/* Responsive Media for Small Screen */
 
 @media screen and (max-width: 576px) {
     .navigation-ber {
