@@ -82,7 +82,7 @@
     padding: 30px 40px 31px 2px;
 }
 
-/* Responsive Media for Small Screen */
+/* Responsive Media Query for Small Screen */
 
 @media screen and (max-width: 576px) {
     .navigation-ber {
@@ -90,4 +90,17 @@
         text-align: center;
         margin: 0 auto;
     }
-}
+
+    .banner-container {
+        flex-direction: column-reverse;
+        margin: 0 auto;
+    }
+
+    .banner-content-container {
+        text-align: center;
+    }
+
+    .banner-btn {
+        margin: 0 auto;
+    }
+    }
