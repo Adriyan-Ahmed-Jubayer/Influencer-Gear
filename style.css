@@ -16,6 +16,10 @@
 
 /* Header sections Styles Start From Here */
 
+header {
+    height: 100vh;
+}
+
 /* Navigation Section Styles */
 
 .navigation-ber {
@@ -50,6 +54,10 @@
     justify-content: space-between;
     align-items: center;
     margin: 80px 165px 0px 120px
+}
+
+.banner-content-container {
+    max-width: 582px;
 }
 
 .banner-title {
@@ -114,5 +122,13 @@
 
     .banner-btn {
         margin: 0 auto;
+    }
+
+    .sponsors-container {
+        margin: 50px 42px;
+        padding: 0px;
+        flex-wrap: wrap;
+        border: none;
+        gap: 30px;
     }
     }
